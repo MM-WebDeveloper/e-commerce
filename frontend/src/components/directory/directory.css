@@ -1,0 +1,8 @@
+.directory-container {
+	background-color: #000;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(4, 1fr);
+	height: 100vh;
+	padding: 1rem;
+}
