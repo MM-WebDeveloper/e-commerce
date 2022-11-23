@@ -13,8 +13,18 @@ nav {
 	width: 80%;
 }
 
-a {
+.nav-logo {
+	height: 50px;
+	width: 180px;
+	margin-top: 10px;
+}
+
+.nav-link {
 	color: white;
 	margin: 10px;
 	text-decoration: none;
+}
+
+.nav-link:hover {
+	border-bottom: 2px groove rgba(255, 255, 255, 0.823);
 }

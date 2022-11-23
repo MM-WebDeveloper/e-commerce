@@ -1,4 +1,5 @@
 import { Outlet, Link } from 'react-router-dom';
+import { ReactComponent as NavLogo } from '../../assets/logo.svg';
 import './navigation.css';
 
 const Nav = () => {
@@ -6,15 +7,21 @@ const Nav = () => {
 		<div className='navbar'>
 			<nav>
 				<Link to='/'>
-					<h1>Logo</h1>
+					<NavLogo className='nav-logo' />
 				</Link>
-				<fragment>
-					<Link to='/shop'>A</Link>
+				<div>
+					<Link className='nav-link' to='/shop'>
+						SHOP
+					</Link>
 
-					<Link to='/shop'>B</Link>
+					<Link className='nav-link' to='/shop'>
+						CONTACT
+					</Link>
 
-					<Link to='/shop'>C</Link>
-				</fragment>
+					<Link className='nav-link' to='/shop'>
+						SIGN IN
+					</Link>
+				</div>
 			</nav>
 			<Outlet />
 		</div>
