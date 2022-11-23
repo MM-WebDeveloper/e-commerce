@@ -7,7 +7,8 @@ nav {
 	background-color: black;
 	color: white;
 	display: flex;
-	height: 60px;
+	height: 80px;
+	padding: 0px 0px 10px 0px;
 	justify-content: space-between;
 	margin: 0 auto;
 	width: 80%;
@@ -16,7 +17,7 @@ nav {
 .nav-logo {
 	height: 60px;
 	width: 240px;
-	margin-top: 17px;
+	margin-top: 10px;
 }
 
 .nav-link {
