@@ -1,5 +1,5 @@
 import { Outlet, Link } from 'react-router-dom';
-import { ReactComponent as NavLogo } from '../../assets/logo.svg';
+import distressedlogo from '../../assets/distressedlogo.png';
 import './navigation.css';
 
 const Nav = () => {
@@ -7,7 +7,7 @@ const Nav = () => {
 		<div className='navbar'>
 			<nav>
 				<Link to='/'>
-					<NavLogo className='nav-logo' />
+					<img className='nav-logo' src={distressedlogo} alt='shop logo' />
 				</Link>
 				<div>
 					<Link className='nav-link' to='/shop'>
