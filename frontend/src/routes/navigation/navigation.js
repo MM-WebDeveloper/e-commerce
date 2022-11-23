@@ -14,11 +14,11 @@ const Nav = () => {
 						SHOP
 					</Link>
 
-					<Link className='nav-link' to='/shop'>
+					<Link className='nav-link' to='/contact'>
 						CONTACT
 					</Link>
 
-					<Link className='nav-link' to='/shop'>
+					<Link className='nav-link' to='/signin'>
 						SIGN IN
 					</Link>
 				</div>
