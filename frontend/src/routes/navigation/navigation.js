@@ -5,24 +5,26 @@ import './navigation.css';
 const Nav = () => {
 	return (
 		<div className='navbar'>
-			<nav>
-				<Link to='/'>
-					<img className='nav-logo' src={distressedlogo} alt='shop logo' />
-				</Link>
-				<div>
-					<Link className='nav-link' to='/shop'>
-						SHOP
+			<div className='nav-gradient-bg'>
+				<nav>
+					<Link to='/'>
+						<img className='nav-logo' src={distressedlogo} alt='shop logo' />
 					</Link>
+					<div>
+						<Link className='nav-link' to='/shop'>
+							SHOP
+						</Link>
 
-					<Link className='nav-link' to='/contact'>
-						CONTACT
-					</Link>
+						<Link className='nav-link' to='/contact'>
+							CONTACT
+						</Link>
 
-					<Link className='nav-link' to='/signin'>
-						SIGN IN
-					</Link>
-				</div>
-			</nav>
+						<Link className='nav-link' to='/signin'>
+							SIGN IN
+						</Link>
+					</div>
+				</nav>
+			</div>
 			<Outlet />
 		</div>
 	);

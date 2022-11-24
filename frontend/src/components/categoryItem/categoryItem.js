@@ -1,13 +1,13 @@
 import './categoryItem.css';
 
 const CategoryItem = ({ category }) => {
-	const { imageUrl, title } = category;
+	const { bgImage, title } = category;
 
 	return (
 		<div className='category-container'>
 			<div
 				className='background-image'
-				style={{ backgroundImage: `url(${imageUrl})` }}
+				style={{ backgroundImage: `url(${bgImage})` }}
 			/>
 			<div className='category-body-container'>
 				<h2>{title}</h2>

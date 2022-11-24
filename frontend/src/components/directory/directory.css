@@ -1,9 +1,8 @@
 .directory-container {
-	background-color: #000;
+	background-color: #29150e;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: repeat(4, 1fr);
 	height: 100vh;
-	padding: 0rem 0rem 1rem 0rem;
-	box-shadow: 0px -2.5px 80px #a52a2a;
+	padding: 0.1rem 0.5rem 1rem 0.5rem;
 }

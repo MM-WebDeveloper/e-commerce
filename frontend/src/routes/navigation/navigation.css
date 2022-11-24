@@ -2,9 +2,12 @@
 	background-color: black;
 }
 
+.nav-gradient-bg {
+	background-image: linear-gradient(black, #29150e);
+}
+
 nav {
 	align-items: center;
-	background-color: black;
 	color: white;
 	display: flex;
 	height: 80px;

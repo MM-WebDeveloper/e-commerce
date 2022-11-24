@@ -39,6 +39,11 @@
 	right: 0;
 	text-shadow: 2px 2px 1px black;
 	width: 10rem;
+	font-weight: 100;
+}
+
+.category-body-container h2 {
+	font-weight: 100;
 }
 
 .category-body-container:hover {
